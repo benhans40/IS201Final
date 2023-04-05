@@ -1,0 +1,96 @@
+/* Ben Hanson, IS 201 Section 006, March 18,2023 */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(40, 38, 38);
+}
+p{
+    color: black;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+}
+a {
+    color: brown;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+a:visited {
+    color: indigo;
+}
+.bold {
+    font-weight: bolder;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bolder;}
+
+.justify {text-align: center;}
+
+.freshbg {
+    background-color: cadetblue;
+}
+
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 1px solid #555555;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 170px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: 1px solid #555555;
+}
+
+.mainbody{
+    top: 114px;
+    left: 184px;
+    right: 214px;
+    bottom: 39px;
+    padding-right: 5px;
+    z-index: 1;
+    border-bottom: none;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 200px;
+    bottom: 39px;
+    border-left: 1px solid #555555;
+    padding-left: 5px;
+    z-index: 2;
+}
+
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 25px;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 0;
+    border-radius: none;
+}
+.subheader{
+    float: right top;
+}
